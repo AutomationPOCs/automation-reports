@@ -1,0 +1,21 @@
+{
+    "baseUrl": "https://www.google.com/",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/results",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    },
+    "testFiles": "**/*.{feature,features}",
+    "video": true,
+    "numTestsKeptInMemory": 0,
+    "defaultCommandTimeout": 40000,
+    "execTimeout": 40000,
+    "chromeWebSecurity": false,
+    "failOnStatusCode": false,
+    "requestTimeout": 60000,
+    "pageLoadTimeout": 180000,
+    "responseTimeout": 60000,
+    "projectId": "8yw6dv"
+  }
